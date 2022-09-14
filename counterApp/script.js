@@ -47,8 +47,8 @@ function div5() {
 }
 
 function reset() {
-  console.log(total.textContent);
-  total.textContent = Number(total.textContent) * 0;
+  console.log(+ total.textContent);
+  total.textContent = 0;
 }
 //3. Attach Functions to Buttons
 addBtn.addEventListener("click", add);
